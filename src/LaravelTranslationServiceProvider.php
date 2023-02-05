@@ -9,15 +9,11 @@ class LaravelTranslationServiceProvider extends PackageServiceProvider
 {
     public function boot()
     {
+        parent::boot();
         $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
     }
     public function configurePackage(Package $package): void
     {
-        /*
-         * This class is a Package Service Provider
-         *
-         * More info: https://github.com/spatie/laravel-package-tools
-         */
         $package
             ->name('laravel-translation');
     }

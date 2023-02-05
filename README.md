@@ -16,7 +16,7 @@ composer require khamdullaevuz/laravel-translation
 You can publish and run the migrations with:
 
 ```bash
-php artisan vendor:publish --tag="laravel-translation-migrations"
+php artisan vendor:publish --tag="translation-migrations"
 php artisan migrate
 ```
 

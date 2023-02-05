@@ -7,6 +7,10 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class LaravelTranslationServiceProvider extends PackageServiceProvider
 {
+    public function boot()
+    {
+        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
+    }
     public function configurePackage(Package $package): void
     {
         /*
@@ -15,7 +19,6 @@ class LaravelTranslationServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('laravel-translation')
-            ->hasMigration('2023_02_05_22335_create_translation_table');
+            ->name('laravel-translation');
     }
 }

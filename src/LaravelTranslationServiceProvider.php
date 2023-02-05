@@ -16,6 +16,6 @@ class LaravelTranslationServiceProvider extends PackageServiceProvider
          */
         $package
             ->name('laravel-translation')
-            ->hasMigration('create_laravel-translation_table');
+            ->hasMigration('2023_02_05_22335_create_translation_table');
     }
 }

@@ -69,7 +69,7 @@ Get
 $product = Product::find(1);
 
 app()->setLocale('uz');
-$this->info($product->getAttribute('name'));
+$product->getAttribute('name');
 ```
 
 ## Credits

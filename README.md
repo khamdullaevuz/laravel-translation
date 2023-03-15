@@ -13,6 +13,16 @@ You can install the package via composer:
 composer require khamdullaevuz/laravel-translation
 ```
 
+Add the service provider to your `config/app.php`:
+
+```php
+// config/app.php
+'providers' => [
+    ...
+    Khamdullaevuz\LaravelTranslation\TranslationServiceProvider::class,
+];
+```
+
 You can run the migrations with:
 
 ```bash

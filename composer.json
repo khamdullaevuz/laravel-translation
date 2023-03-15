@@ -1,0 +1,28 @@
+{
+  "name": "khamdullaevuz/laravel-translation",
+  "description": "Laravel translation",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Elbek Khamdullaev",
+      "email": "elbek.khamdullaev@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Khamdullaevuz\\LaravelTranslation\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Khamdullaevuz\\LaravelTranslation\\LaravelTranslationServiceProvider"
+      ],
+      "aliases": {
+        "Translatable": "JohnDoe\\BlogPackage\\Facades\\Translatable"
+      }
+    }
+  }
+}

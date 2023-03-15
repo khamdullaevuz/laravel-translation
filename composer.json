@@ -18,7 +18,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "TranslationServiceProvider"
+        "Khamdullaevuz\\LaravelTranslation\\TranslationServiceProvider"
       ],
       "aliases": {
         "Translatable": "JohnDoe\\BlogPackage\\Facades\\Translatable"

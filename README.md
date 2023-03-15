@@ -57,7 +57,7 @@ class Product extends Model
 }
 ```
 
-# Create
+### Create
 Use with model
 ```php
 
@@ -85,7 +85,7 @@ $product = Product::create([
 Translation::make('products', 'name', 'Mahsulot 1', 'uz', $product->id);
 ```
 
-Get
+### Get
 ```php
 $product = Product::find(1);
 

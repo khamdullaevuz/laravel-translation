@@ -96,8 +96,3 @@ $product->getAttribute('name');
 ## Credits
 
 - [khamdullaevuz](https://github.com/khamdullaevuz)
-- [All Contributors](../../contributors)
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.

@@ -12,8 +12,8 @@ class TranslationServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->app->bind('translatable', function () {
-            return new Translatable();
+        $this->app->bind('translation', function () {
+            return new Translation();
         });
     }
 }

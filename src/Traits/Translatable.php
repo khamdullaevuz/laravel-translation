@@ -1,10 +1,10 @@
 <?php
 
-namespace Khamdullaevuz\LaravelTranslation;
+namespace Khamdullaevuz\LaravelTranslation\Traits;
 
 use Khamdullaevuz\LaravelTranslation\Models\Translation;
 
-class Translatable
+trait Translatable
 {
     public function translations()
     {

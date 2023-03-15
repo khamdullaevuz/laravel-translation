@@ -21,7 +21,7 @@
         "Khamdullaevuz\\LaravelTranslation\\TranslationServiceProvider"
       ],
       "aliases": {
-        "Translatable": "JohnDoe\\BlogPackage\\Facades\\Translatable"
+        "Translation": "Khamdullaevuz\\LaravelTranslation\\Facades\\Translation"
       }
     }
   }

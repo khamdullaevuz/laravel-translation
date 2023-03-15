@@ -32,6 +32,7 @@ php artisan migrate
 ## Usage
 
 Model
+
 ```php
 <?php
 
@@ -39,11 +40,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Khamdullaevuz\LaravelTranslation\Facades\Translatable;
+use Khamdullaevuz\LaravelTranslation\Facades\Translation;
 
 class Product extends Model
 {
-    use HasFactory, Translatable;
+    use HasFactory, Translation;
 
     protected $fillable = [
         'name',

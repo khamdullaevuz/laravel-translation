@@ -3,7 +3,7 @@
 namespace Khamdullaevuz\LaravelTranslation;
 
 use Illuminate\Support\ServiceProvider;
-class LaravelTranslationServiceProvider extends ServiceProvider
+class TranslationServiceProvider extends ServiceProvider
 {
     public function boot()
     {

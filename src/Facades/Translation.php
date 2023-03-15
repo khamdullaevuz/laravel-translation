@@ -5,8 +5,7 @@ namespace Khamdullaevuz\LaravelTranslation\Facades;
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @method static \Khamdullaevuz\LaravelTranslation\Translation getAttribute($key)
- * @method static \Khamdullaevuz\LaravelTranslation\Translation getTranslation($key, $locale)
+ * @method static \Khamdullaevuz\LaravelTranslation\Translation make($table_name, $column_name, $value, $locale, $foreign_key)
  * @see \Khamdullaevuz\LaravelTranslation\Translation
  */
 

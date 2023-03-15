@@ -4,6 +4,9 @@ namespace Khamdullaevuz\LaravelTranslation\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
+/**
+ * @method static create(array $array)
+ */
 class Translation extends Model
 {
     protected $table = 'translations';

@@ -40,11 +40,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Khamdullaevuz\LaravelTranslation\Facades\Translation;
+use Khamdullaevuz\LaravelTranslation\Traits\Translatable;
 
 class Product extends Model
 {
-    use HasFactory, Translation;
+    use HasFactory, Translatable;
 
     protected $fillable = [
         'name',

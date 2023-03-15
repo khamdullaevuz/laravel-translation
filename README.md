@@ -57,7 +57,8 @@ class Product extends Model
 }
 ```
 
-Create
+# Create
+Use with model
 ```php
 
 $product = Product::create([

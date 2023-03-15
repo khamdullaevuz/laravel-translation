@@ -73,6 +73,16 @@ $product->translations()->create([
     'foreign_key' => $product->id,
 ]);
 ```
+Use with facade
+```php
+use Khamdullaevuz\LaravelTranslation\Facades\Translation;
+
+$product = Product::create([
+    'name' => 'Product 1',
+    'amount' => 100,
+]);
+Translation::make('products', 'name', 'Mahsulot 1', 'uz', $product->id);
+```
 
 Get
 ```php

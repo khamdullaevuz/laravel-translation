@@ -2,7 +2,6 @@
   "name": "khamdullaevuz/laravel-translation",
   "description": "Laravel translation",
   "type": "library",
-  "license": "MIT",
   "authors": [
     {
       "name": "Elbek Khamdullaev",

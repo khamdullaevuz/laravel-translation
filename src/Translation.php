@@ -3,12 +3,9 @@
 namespace Khamdullaevuz\LaravelTranslation;
 
 use Khamdullaevuz\LaravelTranslation\Models\Translation as TranslationModel;
-use Khamdullaevuz\LaravelTranslation\Traits\Translatable;
 
 class Translation
 {
-    use Translatable;
-
     public function make($table_name, $column_name, $value, $locale, $foreign_key)
     {
         return TranslationModel::create([

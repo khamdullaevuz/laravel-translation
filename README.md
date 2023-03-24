@@ -85,7 +85,7 @@ Translation::make('products', 'name', 'Mahsulot 1', 'uz', $product->id);
 
 ### Get
 ```php
-$product = Product::find(1);
+$product = Product::latest()->first();
 
 echo $product->name;
 app()->setLocale('uz');
